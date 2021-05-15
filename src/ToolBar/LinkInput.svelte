@@ -25,7 +25,7 @@
     hideLink();
   }
 </script>
-
+<svelte:option tag="link-input" />
 <svelte:window on:click={hideLink} />
 <div class="relative" on:mousedown>
   <span class="px-2 py-1" on:click={toggleLink}>
