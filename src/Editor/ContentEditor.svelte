@@ -774,7 +774,7 @@
 	}
 </style>
 
-<svelte:option tag="content-editor" />
+<svelte:options tag="content-editor" />
 
 {#if editable}
 	<div use:setEditorNode data-txteditor="true" on:input on:blur on:mousemove={setMouseX} on:mouseup|stopPropagation bind:innerHTML={html} placeholder='' spellcheck="false" contenteditable="true" on:keydown={handleKeydown}  class="outline-none focus:outline-none relative {gklass}" on:mouseup={fireSelect} on:keyup={fireSelect}  >

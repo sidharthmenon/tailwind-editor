@@ -16,7 +16,7 @@
 		e.stopPropagation()
 	}
 </script>
-<svelte:option tag="color-list" />
+<svelte:options tag="color-list" />
 <div class="flex">	
 	<div class="shadow-xl border border-gray-200">
 		<div class="flex items-center">
