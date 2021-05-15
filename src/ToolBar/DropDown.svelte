@@ -45,7 +45,7 @@
 	}
 	
 </script>
-<svelte:options tag="drop-down" />
+<svelte:options tag={null} />
 <svelte:window on:click={hideList} />
 <div class="relative">
 	<div class="cursor-pointer flex h-full" on:click={toggleList}>

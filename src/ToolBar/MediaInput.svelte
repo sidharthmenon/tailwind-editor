@@ -39,7 +39,7 @@
 	}
 </script>
 
-<svelte:options tag="media-input" />
+<svelte:options tag={null} />
 
 <div use:setPosition class="absolute -mt-6 p-3 shadow-xl flex flex-col rounded bg-white z-20">
     {#if src}

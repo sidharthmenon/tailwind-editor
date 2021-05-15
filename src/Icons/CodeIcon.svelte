@@ -1,4 +1,4 @@
-<svelte:options tag="code-icon" />
+<svelte:options tag={null} />
 <svg
   class="w-4 h-4"
   viewBox="0 0 24 24"

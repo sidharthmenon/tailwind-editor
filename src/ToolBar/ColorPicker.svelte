@@ -36,7 +36,7 @@
 		show_colors= false
 	}
 </script>
-<svelte:options tag="color-picker" />
+<svelte:options tag={null} />
 <svelte:window on:click={hideColors} />
 <div class="flex relative">	
 	<div class="font-medium flex items-center cursor-pointer {txt}-{selected_color} px-1" on:click={showColors}>
