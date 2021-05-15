@@ -153,7 +153,7 @@
 
 </script>
 
-<svelte:options tag="editor" />
+<svelte:options tag="editor-component" />
 <svelte:window  on:mousedown={triggerChange} />
 
 {#if show_toolbar && editable}

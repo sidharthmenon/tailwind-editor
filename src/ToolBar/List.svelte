@@ -12,7 +12,7 @@
 		e.preventDefault()
 	}
 </script>
-<svelte:options tag="list" />
+<svelte:options tag="list-component" />
 <div class="shadow-xl border-r border-l rounded mt-1 bg-white">	
 	{#each list as elm}
 		<div class="px-2 py-1 flex items-center hover:bg-gray-200 cursor-pointer" on:click={(e) => select(e,elm.value)}>
